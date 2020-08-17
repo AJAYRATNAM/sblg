@@ -1,0 +1,93 @@
+body{
+  margin:0;
+  overflow-x:hidden;
+  background: #4dd2ff;
+}
+.main{
+  position:absolute;
+  left:50%;
+  top:50%;
+  padding:30px;
+  height:auto;
+  width:auto;
+  border:3px;
+  border-radius:5px;
+  transform:translate(-50%,-50%);
+  display:flex;
+  box-sizing:border-box;
+
+  justify-content:center;
+  box-shadow:-13px -13px 13px rgba(255,255,255,0.4),
+              15px 15px 15px rgba(0,0,0,0.3),
+              inset -5px -5px 15px rgba(255,255,255,0.4),
+              inset 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+ .main form{
+   position:relative;
+   padding:20px;
+   align-items:center;
+ }
+ .main h1{
+   text-align:center;
+ }
+ .main a img{
+   box-shadow:-4px -4px 4px rgba(0,0,0,0.5),4px 4px 4px rgba(255,255,255,0.5);
+   width:40px;
+   border-radius:50%;
+   background:#b3e6ff;
+}
+
+.main a img:hover{
+  box-shadow:-4px -4px 4px rgba(255,255,255,0.5),4px 4px 4px rgba(0,0,0,0.5);
+}
+
+ .main .input{
+   position:relative;
+   padding:10px;
+   height:auto;
+   width:auto;
+
+ }
+ .main .link{
+   position:absolute;
+
+ }
+ .main .link h4{
+   position:relative;
+ }
+
+ .main .input input{
+   width:300px;
+   font-size:17px;
+   height:19px;
+   padding:10px;
+   outline:none;
+   border:none;
+   background: #e6ffff;
+   border-radius:30px;
+   border-bottom:3px solid black;
+ }
+
+
+ .main .submit{
+   position:relative;
+  float:left;
+  left:60%;
+ }
+ .main .submit button{
+   width:120px;
+   height:35px;
+   border:none;
+   outline:none;
+   background:blue;
+   cursor:hand;
+   color:white;
+   font-size:17px;
+   transition:0.4s;
+   cursor:pointer;
+ }
+ .main .submit button:hover{
+   background:#ffff99;
+   color:blue;
+ }
